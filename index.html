@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Netflix Clone</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="main">
+    <nav class="navbar" id="navbar">
+      <div class="container-fluid" >
+        <div class="d-flex align-items-center justify-content-start text-center">
+    <a class="navbar-brand" href="#">
+      <img src="logo.png" alt="" width="90px">
+    </a>
+    
+    <a href="#home" class="">Home</a>
+    <a href="" class="">TV Shows</a>
+    <a href="" class="">Movies</a>
+    <a href="" class="">Recently Added</a>
+    <a href="" class="">My List</a>
+</div>
+    <div class="d-flex justify-content-end">
+      <a href="#home"><i class="fa fa-search"></i></a>
+    <a href="" class="">KIDS</a>
+    <a href="" class="">LANGUAGE</a>
+    <a href="" class="">FOR ALL</a>
+    <a href="" class="">DVD</a>
+    <a href=""><i class="fa fa-bell"></i></a>
+    
+    <!-- <div class="avatar" style="background:red; margin-left:10px; width:24px; height:24px; border-radius:50px;">
+      <img src="icon.png" alt="" class="avatar-img">
+      <i class="fa fa-angle-down"></i>
+  </div> -->
+  </div>
+    </nav>
+
+  <section class="container-fluid home">
+    <div class="text-item">
+    <div class="text-header font-[700]">THE WITCHER</div>
+    <div class="text-sam font-[300] my-2">20 Dec 2019 &shy; |&shy;&shy; <span style="border:1px solid red;margin-right:5px;padding-left:5px"> 18+ </span> &shy;|&shy;  &shy;|&shy; Nightmare Of Whe Wolf , Blood Origion</div>
+    <div class="text-sam font-[200] my-2">The Monster Geralt , A Mutanted Mondter Hunter , Struggles To Find His Place In Which People Often Prove More Wicked Than Beasts. </div>
+    <div class="text-sam "><span class="text-gray-400">No. of Season:</span> 2 </div>
+    <div class="text-sam "><span class="text-gray-400">No. of Epsiode:</span> 16 (list of epsiode) </div>
+    <div class="text-sam"><span class="text-gray-400">Producer:</span> Mike Ostrowski</div>
+    <div>
+    <!-- <video autoplay muted loop id="myVideo">e
+  <source src="play.mp4" type="video/mp4">
+</video> -->
+<!-- <img src="poster.jpg" alt=""> -->
+<div class="btn-watch">
+  <button class="btn btn-primary hover:text-black-100" type="button" name="button"><i class="text-primary fa fa-play"></i> <span class="text-white">Play Epsiode</span></button>
+  <button class="btn btn-danger" type="button"><i class="text-danger fa fa-circle-info"></i> <span class="">More Info</span></button>
+  <button class="btn btn-success" type="button"><i class="text-success fa fa-list"></i> <span class="">Watch Later</span></button>
+  </div>
+</section>
+<!-- /////////////////////************************************//////////////////////////////// -->
+<section class="pop-netflix container-fluid bg-dark">
+  <h3 class="text-white text-popural mb-3">Popural on Netflix</h3>
+  <div class="items row g-2 row-cols-6">
+    <div class="cols">
+    <img class="image1" src="./images/a.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/b.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/c.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/d.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/e.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/f.jpg" alt="">
+  </div>
+  </div>
+</section>
+<!-- //////////////////////////////////////////////////// -->
+<section class="pop-netflix container-fluid bg-dark">
+  <h3 class="text-white text-popural mb-3">Trending Now</h3>
+  <div class="items row g-2 row-cols-6">
+    <div class="cols">
+    <img class="image1" src="./images/g.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/h.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/i.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/j.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/k.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/l.jpg" alt="">
+  </div>
+  </div>
+</section>
+<!-- /////////////////////////////////////////////////// -->
+<section class="pop-netflix container-fluid bg-dark">
+  <h3 class="text-white text-popural mb-3">Continue Watch</h3>
+  <div class="items row g-2 row-cols-6">
+    <div class="cols">
+    <img class="image1" src="./images/m.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/n.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/o.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/p.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/q.jpg" alt="">
+  </div>
+  <div class="cols">
+    <img class="image1" src="./images/r.jpg" alt="">
+  </div>
+  </div>
+</section>
+<section class="pop-netflix container-fluid bg-dark">
+    <h3 class="text-white text-popural mb-3">Award-Winning Netflix Originals</h3>
+    <div class="items row g-2 row-cols-6">
+      <div class="cols">
+      <img class="image1" src="./images/s.jpg" alt="">
+    </div>
+    <div class="cols">
+      <img class="image1" src="./images/t.jpg" alt="">
+    </div>
+    <div class="cols">
+      <img class="image1" src="./images/u.jpg" alt="">
+    </div>
+    <div class="cols">
+      <img class="image1" src="./images/v.jpg" alt="">
+    </div>
+    <div class="cols">
+      <img class="image1" src="./images/w.jpg" alt="">
+    </div>
+    <div class="cols">
+      <img class="image1" src="./images/x.jpg" alt="">
+    </div>
+    </div>
+  </section>
+<!-- ////////////////////////////////////// -->
+<footer class="bg-dark container-fluid text-white" style="">
+  
+</footer>
+<!-- /////////////////////////////// -->
+  <script src="main.js"></script>
+</body>
+</html>
